@@ -71,7 +71,17 @@ class firecat:
             else:
                 return
 
-    def fndfile(self, file):
-        pass
+    def fndfile(self, direc, target):
+        """
+        Find an file on a directory.
+        """
+        from os import listdir
+        
+        lst = listdir(direc)
+        if target in lst:
+            return f"Found file {target} on {direc}!"
+        else:
+            return
+        
 
 
