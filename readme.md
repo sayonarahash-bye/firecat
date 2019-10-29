@@ -31,4 +31,4 @@ print(rd)
 Only compatible with Python > 3.5
 
 # Contribution
-If you want to contribute with this *small-size* project, ccontribute
+If you want to contribute with this *small-size* project, contribute!
